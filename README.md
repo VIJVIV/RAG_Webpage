@@ -9,7 +9,7 @@ Upon code execution, the response generated for query is:
 
 
 
-To analyze if model accesses information from webpage correctly and does not halucinate, the context from webpage for the respective query is:
+To analyze if model accesses information from webpage correctly and does not halucinate, the context from webpage for respective query is:
 
 <img width="878" alt="Nvidia webpage" src="https://github.com/VIJVIV/RAG_Webpage/assets/146338220/825424a0-a363-4040-a030-fc6e4312c9c3">
 
