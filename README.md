@@ -1,4 +1,4 @@
-# Retrieval Augmented Generation (RAG) model for querying a webpage
+# Retrieval Augmented Generation (RAG) model for webpage query
 
 This repository provides code for implementation of a basic RAG model to query a webpage. The RAG model is implemented purely using open source models, with the help of langchain framework. You would require an api token for accessing the hugging face models, which would need to be inserted as password during code execution. This project is a learning exercise, expected to evolve or lead to a more comprehensive project in the (near) future.
 
