@@ -1,8 +1,8 @@
 import streamlit as st
 import RAG
 
-def process_RAG(webpage, user_query):
-    answer = RAG.get_response(webpage, user_query)
+def process_RAG(webpage, user_query, HF_token):
+    answer = RAG.get_response(webpage, user_query, HF_token)
     st.write(answer)
 
 def main():
