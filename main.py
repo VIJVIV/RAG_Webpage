@@ -14,9 +14,11 @@ def main():
     user_query = st.text_input('Please ask your query for the webpage')
     st.button('Submit')
 
+    HF_token = st.secrets['HUGGINGFACEHUB_API_TOKEN']
+
     if webpage and user_query:
         with st.spinner('Processing...'):
-            process_RAG(webpage, user_query)
+            process_RAG(webpage, user_query, HF_token)
 
 
 if __name__ == '__main__':
