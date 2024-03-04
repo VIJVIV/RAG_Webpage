@@ -8,8 +8,8 @@ from langchain.vectorstores import Chroma
 from langchain.llms import HuggingFaceHub
 from langchain.chains import RetrievalQA
 
-#load_dotenv()
-#HF_token = os.getenv('HUGGINGFACEHUB_API_TOKEN') #For API key stored in .env file for local usage
+load_dotenv()
+HF_token = os.getenv('HUGGINGFACEHUB_API_TOKEN')    #API key stored in .env file locally
 
 #Load data from webpage url
 def load_data(url):
@@ -67,7 +67,7 @@ def RAG(vector_db, user_query):
     return response['result'].split("<|>")[-1].strip()
 
 
-def get_response(url, user_query, HF_token):
+def get_response(url, user_query):
     content = load_data(url)
     
     chunking = text_splitter(content)
