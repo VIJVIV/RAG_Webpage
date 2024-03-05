@@ -29,5 +29,16 @@ This repository showcases the implementation of a basic RAG model to query a web
 
 https://github.com/VIJVIV/RAG_Webpage/assets/146338220/7566b2b9-ed38-4490-bc4f-b730a3662be9
 
+&nbsp;
 
+
+Project dependencies can be installed using the requirements file
+```bash
+pip install -r requirements.txt
+```
+
+Save your Hugging Face api token in a '.env' file before code execution. Run program from terminal using:
+```bash
+streamlit run main.py
+```
 
