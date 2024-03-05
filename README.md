@@ -17,3 +17,17 @@ This repository showcases the implementation of a basic RAG model to query a web
 
 <img width="878" alt="Nvidia webpage" src="https://github.com/VIJVIV/RAG_Webpage/assets/146338220/825424a0-a363-4040-a030-fc6e4312c9c3">
 
+
+&nbsp;  
+
+
+
+
+**Update 1: Integration with Streamlit to build a webpage query app**
+
+
+
+https://github.com/VIJVIV/RAG_Webpage/assets/146338220/7566b2b9-ed38-4490-bc4f-b730a3662be9
+
+
+
