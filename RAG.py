@@ -5,6 +5,7 @@ from langchain.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain.vectorstores import Chroma
+import chromadb
 from langchain.llms import HuggingFaceHub
 from langchain.chains import RetrievalQA
 
@@ -35,6 +36,7 @@ def embedding(HF_token):
 
 #Vector db creation
 def vector_database(chunks, embeddings):
+    client = chromadb.Client()
     vector_db = Chroma.from_documents(chunks, embeddings)
     print('vector db created with embeddings')
     return vector_db
